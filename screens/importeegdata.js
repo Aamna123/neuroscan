@@ -36,6 +36,7 @@ export default function App({ navigation }) {
           <Image style={Styles.uploadimg} source={Upload}></Image>
         </View>
 
+        {/* Cetered this.. */}
         <View style={Styles.dropdowndiv}>
           <DropDownPicker
             open={open}
@@ -57,6 +58,8 @@ export default function App({ navigation }) {
             <Text>Select file to upload</Text>
           </TouchableOpacity>
         </View>
+
+        {/* another test line */}
 
         <View style={Styles.innerContainer}>
           <View style={Styles.uploadbtn}>
