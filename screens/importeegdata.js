@@ -64,7 +64,7 @@ export default function App({ navigation }) {
         <View style={Styles.innerContainer}>
           <View style={Styles.uploadbtn}>
             <TouchableOpacity style={Styles.loginBtn}>
-              <Text style={Styles.loginText}>Upload EEG Data</Text>
+              <Text style={Styles.loginText}>Import EEG Data</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -91,13 +91,14 @@ const Styles = StyleSheet.create({
     height: 50,
     alignItems: "center",
     justifyContent: "center",
+   
 
     backgroundColor: "#BB005E",
   },
   loadingimg: {
     flexDirection: "row",
     alignItems: "center",
-    margin: 10,
+   
   },
   image: {
     flex: 1,
@@ -115,7 +116,7 @@ const Styles = StyleSheet.create({
   innerContainer: {
     flexDirection: "column",
     alignItems: "center",
-    marginTop: "5%",
+   
   },
   txt: {
     color: "#264CE3",
@@ -127,13 +128,13 @@ const Styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: "8%",
+   
   },
   uploadbtn: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: "9%",
+    marginTop:"6%",
     marginBottom: "5%",
   },
   loginText: {
@@ -150,7 +151,7 @@ const Styles = StyleSheet.create({
     justifyContent: "center",
   },
   dropdowndiv: {
-    marginTop: "30%",
+    marginTop: "10%",
     width: "100%",
     padding: "20%",
   },
